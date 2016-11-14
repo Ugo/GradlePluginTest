@@ -42,9 +42,9 @@ dependencies {
 }
 
 release{
-	preTagCommitMessage = 'Tag creation: '
+	preTagCommitMessage = 'Release version: '
     tagCommitMessage = 'Creating tag: '
-    newVersionCommitMessage = 'Updating version: '
+    newVersionCommitMessage = 'Updating version to: '
     tagTemplate = '${version}'
     versionPropertyFile = 'gradle.properties'
     
