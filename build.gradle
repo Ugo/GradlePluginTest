@@ -49,6 +49,6 @@ release{
     versionPropertyFile = 'gradle.properties'
     
      git {
-        requireBranch = 'release'
+        requireBranch = 'master'
     }
 }
